@@ -13,3 +13,15 @@ def calcularValorDescuento(val1,val2):
     valorDescuento = val1*val2
     calculardescuento = valorDescuento / 100
     return calculardescuento
+
+def consultarMulta(tipomMulta):
+    if tipomMulta == 1:
+        return 10/100*100
+    elif tipomMulta == 2:
+        return 15/100*100
+    elif tipomMulta == 3:
+        return 20/100*100
+    elif tipomMulta == 4:
+        return 30/100*100
+    else:
+        return -1
