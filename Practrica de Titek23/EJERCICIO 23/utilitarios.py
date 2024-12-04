@@ -13,3 +13,7 @@ def calcularValorDescuento(val1,val2):
     valorDescuento = val1*val2
     calculardescuento = valorDescuento / 100
     return calculardescuento
+
+def calcularValorHora(salario):
+    resultado=salario*160
+    return resultado
