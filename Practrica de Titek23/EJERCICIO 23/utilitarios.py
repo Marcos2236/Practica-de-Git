@@ -14,6 +14,7 @@ def calcularValorDescuento(val1,val2):
     calculardescuento = valorDescuento / 100
     return calculardescuento
 
+<<<<<<< HEAD
 def consultarMulta(tipomMulta):
     if tipomMulta == 1:
         return 10/100*100
@@ -25,3 +26,8 @@ def consultarMulta(tipomMulta):
         return 30/100*100
     else:
         return -1
+=======
+def calcularValorHora(salario):
+    resultado=salario*160
+    return resultado
+>>>>>>> 73743633695a1b63c14a7494a34da131e71546ac
